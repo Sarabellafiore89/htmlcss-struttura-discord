@@ -13,7 +13,7 @@ header{
     justify-content: space-around;
     align-items: center;
     padding:20px;
-    background-color: aqua;
+    background-color: lightblue;
    
 }
 
@@ -23,23 +23,41 @@ header{
     height:50px;
     width:80%;
     justify-content: space-between;
-    border:1px solid;
+    border:1px;
     border-color: black;
-    
-
+    border:dashed;
+    padding:10px;
 
 }
+
+
   
 
 
 .unordered-list{
     display: flex;
-    padding:0;
     align-items: center;
     justify-content: center;
     list-style-type:none ;
-
+    
 }
+
+.list{
+    margin-left:10px;
+    flex-basis:30%;
+   
+}
+
+.logo{
+    flex-basis:15%;
+    
+}
+
+.login{
+    flex-basis:15%;
+    
+}
+
 
 
     
