@@ -76,9 +76,24 @@ header{
 
    } 
     
+#white-container{
+    display: flex;
+    background-color: white;
+    height:300px;
+    justify-content: center;
+    padding:40px; 
+}
 
+#light-blue{
+    background-color: lightskyblue;
+    flex-basis:40%;
+    border:2px dashed black;
 
-
+}
     
-
+#salmon{
+    background-color: salmon;
+    flex-basis:20%;
+    border:2px dashed black;
+}
     
