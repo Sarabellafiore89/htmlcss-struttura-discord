@@ -27,6 +27,7 @@ header{
     border-color: black;
     border:dashed;
     padding:10px;
+    flex-basis:60%;
 
 }
 
@@ -58,9 +59,22 @@ header{
     
 }
 
+/* jumbotron blue */
 
+#jumbotron{
+    display: flex;
+    background-color: blue;
+    height:300px;
+    justify-content: center;
+    padding:40px;
+}
 
-    
+   #pink-box{
+    background-color: pink;
+    flex-basis:60%;
+    border:2px dashed black;
+
+   } 
     
 
 
