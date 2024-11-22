@@ -75,7 +75,7 @@ header{
     border:2px dashed black;
 
    } 
-    
+
 #white-container{
     display: flex;
     background-color: white;
@@ -97,7 +97,7 @@ header{
     border:2px dashed black;
 }
     /* grey container */
-    
+
 #grey-container{
     display: flex;
     background-color: grey;
@@ -119,9 +119,42 @@ header{
 
 }
 
+/* white container */
+#second-white-container{
+    display: flex;
+    background-color: white;
+    height:300px;
+    justify-content: center;
+    padding:40px; 
+}
 
 
+#light-blue{
+    background-color: blue;
+    flex-basis:40%;
+    border:2px dashed black;
 
+}
 
+#salmon{
+    background-color: pink;
+    flex-basis:20%;
+    border:2px dashed black;
+}
 
+/* second grey container */
+#second-grey-container{
+    background-color: grey;
+    display: flex;
+    height:500px;
+    justify-content: center;
+    padding:40px;
+
+}
+
+#green{
+    background-color: darkgreen;
+    flex-basis:60%;
+    border:2px dashed black;
+}
 
