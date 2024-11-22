@@ -63,14 +63,14 @@ header{
 
 #jumbotron{
     display: flex;
-    background-color: blue;
+    background-color: darkblue;
     height:300px;
     justify-content: center;
     padding:40px;
 }
 
    #pink-box{
-    background-color: pink;
+    background-color:darkorchid;
     flex-basis:60%;
     border:2px dashed black;
 
@@ -85,15 +85,43 @@ header{
 }
 
 #light-blue{
-    background-color: lightskyblue;
+    background-color: blue;
     flex-basis:40%;
     border:2px dashed black;
 
 }
     
 #salmon{
-    background-color: salmon;
+    background-color: pink;
     flex-basis:20%;
     border:2px dashed black;
 }
+    /* grey container */
     
+#grey-container{
+    display: flex;
+    background-color: grey;
+    height:300px;
+    justify-content: center;
+    padding:40px; 
+}
+
+#salmon{
+    background-color: pink;
+    flex-basis:40%;
+    border:2px dashed black;
+}
+
+#light-blue{
+    background-color: blue;
+    flex-basis:20%;
+    border:2px dashed black;
+
+}
+
+
+
+
+
+
+
