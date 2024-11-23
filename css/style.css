@@ -91,7 +91,7 @@ header{
 
 }
     
-#salmon{
+#pink{
     background-color: pink;
     flex-basis:20%;
     border:2px dashed black;
@@ -106,7 +106,7 @@ header{
     padding:40px; 
 }
 
-#salmon{
+#pink{
     background-color: pink;
     flex-basis:40%;
     border:2px dashed black;
@@ -136,7 +136,7 @@ header{
 
 }
 
-#salmon{
+#pink{
     background-color: pink;
     flex-basis:20%;
     border:2px dashed black;
@@ -157,4 +157,35 @@ header{
     flex-basis:60%;
     border:2px dashed black;
 }
+
+
+/* black container */
+#black-container{
+    background-color: black;
+    display: flex;
+    height:500px;
+    justify-content: center;
+    padding:40px;
+}
+
+#salmon{
+background-color: salmon;
+flex-basis: 20%;
+border:2px dashed black;
+}
+
+.turqoise{
+    background-color: turquoise;
+    flex-basis: 10%;
+    border:2px dashed black;
+
+}
+
+
+
+
+
+
+
+
 
